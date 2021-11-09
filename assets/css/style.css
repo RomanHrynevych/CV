@@ -865,6 +865,8 @@ img {
   -webkit-transition: width 1s ease-in-out;
   -o-transition: width 1s ease-in-out;
   transition: width 1s ease-in-out;
+
+  border-radius: 0px 5px 5px 0;
 }
 
 /* === Form Control === */

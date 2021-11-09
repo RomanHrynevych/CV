@@ -10,6 +10,7 @@ window.addEventListener("load", function (e) {
   document.querySelector(`.prog-js`).style.width = "65%";
   document.querySelector(`.prog-python`).style.width = "47%";
 });
+
 document
   .querySelector(`.hamburger-menu`)
   .addEventListener("click", function () {

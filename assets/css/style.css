@@ -962,6 +962,12 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+  .about .skills {
+    margin-top: 35px;
+  }
+  .about .skills .item {
+    margin-top: 5px;
+  }
   .welcome {
     padding: 60px !important;
   }
@@ -975,7 +981,7 @@ img {
   }
 
   .resume .resume-item {
-    margin-top: 30px !important;
+    margin-top: 20px !important;
   }
 
   .blog .item .text {
@@ -984,8 +990,14 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
+  .main-content {
+    padding-top: 30px;
+  }
   .main-content section {
-    padding: 60px 30px;
+    padding: 30px 30px;
+  }
+  .main-content section .section-header {
+    margin-bottom: 10px;
   }
 }
 
